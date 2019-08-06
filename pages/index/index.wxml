@@ -1,0 +1,12 @@
+<view class="main">
+  <view class="movie" wx:for="{{movies.data.movieList}}" wx:for-item="item" wx:key="id">
+    <view class="solid">
+      <image src="{{item.poster}}" mode="widthFix" data-id="{{item.id}}" bindtap="detail"></image>
+      <view class="name">{{item.name}}</view>
+      <view class="divide">|</view>
+      <view class="year">{{item.year}}</view>
+      <view class="actor">主演：{{item.actor}}</view>
+    </view>
+    <view class="fragile" wx:if="{{item.id%3 == 0}}"></view>
+  </view>
+</view>

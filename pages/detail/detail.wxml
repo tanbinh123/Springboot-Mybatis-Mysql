@@ -1,0 +1,17 @@
+<view class="main">
+  <image src="{{movie.poster}}" mode="widthFix"></image>
+  <view class="name">{{movie.name}}</view>
+  <view class="divide">|</view>
+  <view class="year">{{movie.year}}</view>
+  <view class="actor">主演：{{movie.actor}}</view>
+  <view class="previous" >剧情简介：{{movie.previous}}</view>
+</view>
+<view class="title">最新推荐</view>
+<swiper indicator-dots="{{true}}"
+  autoplay="{{true}}" interval="{{3000}}" duration="{{2000}}" circular="{{true}}" display-multiple-items="2">
+  <block wx:for="{{movies}}" wx:key="{{item.id}}">
+    <swiper-item>
+      <image src="{{item.poster}}" bindtap="detail" data-id="{{item.id}}"/>
+    </swiper-item>
+  </block>
+</swiper>

@@ -1,0 +1,49 @@
+image{
+  width:100%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+.name{
+  margin-left: 20px;
+  font-size: 40px;
+  text-align: right;
+  color: orange;
+}
+.divide{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 40px;
+  text-align: right;
+  color: black;
+}
+.year{
+  height: 0px;
+  vertical-align: top;
+  color: #0081d8;
+}
+.actor{
+  margin-left: 20px;
+  flex: 100%;
+  font-size: 20px;
+  color: orangered;
+}
+page{
+  background-image: url("https://p0.meituan.net/moviemachine/350582b51ae828c837ec00bf8aac2a30548615.jpg@464w_644h_1e_1c");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.fragile{
+  height:200px;
+  width: 100%;
+  opacity: 0;
+}
+.solid{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction:row;
+  flex-wrap: wrap;
+  border-bottom: 5px solid #81d8cf;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,30 @@
+<!--pages/operation.wxml-->
+<view class="container">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="row">
+      <text>影名：</text>
+      <input type="text" name="name" placeholder="请输入影名" value="{{name}}" />
+    </view>
+    <view class="row">
+      <text>主演：</text>
+      <input type="text" name="actor" placeholder="请输入主演，用“，”隔开" value="{{actor}}" />
+    </view>
+    <view class="row">
+      <text>年份：</text>
+      <input type="number" name="year" placeholder="请输入上映年份" value="{{year}}" />
+    </view>
+    <view class="row">
+      <text>简介：</text>
+      <input type="text" name="previous" placeholder="请输入剧情简介" value="{{previous}}" />
+    </view>
+    <view class="row">
+      <text>海报：</text>
+      <input type="text" name="poster" placeholder="请输入海报链接" value="{{poster}}" />
+    </view>
+    <view class="row">
+      <button type="primary" form-type="submit">添加</button>
+      <button type="primary" form-type="reset">重置</button>
+    </view>
+
+  </form>
+</view>

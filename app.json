@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/add/add",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#81d8cf",
+    "navigationBarTitleText": "正在热映",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "热映",
+        "iconPath": "pages/images/rili.png",
+        "selectedIconPath": "pages/images/rili(1).png"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "text": "添加",
+        "iconPath": "pages/images/xihuan.png",
+        "selectedIconPath": "pages/images/xihuan(1).png"
+      }
+    ]
+  }
+}
