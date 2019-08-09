@@ -1,0 +1,13 @@
+<!--pages/operation.wxml-->
+<view class="container">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class="row">
+      <text>ID:</text>
+      <input type="text" name="id" placeholder="请输入删除影片ID" value="{{id}}" />
+    </view>
+    <view class="row">
+      <button type="primary" form-type="submit">删除</button>
+      <button type="primary" form-type="reset">重置</button>
+    </view>
+  </form>
+</view>

@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/add/add",
-    "pages/detail/detail"
+    "pages/detail/detail",
+    "pages/delete/delete"
   ],
   "window": {
     "navigationBarBackgroundColor": "#81d8cf",
@@ -25,6 +26,12 @@
         "text": "添加",
         "iconPath": "pages/images/xihuan.png",
         "selectedIconPath": "pages/images/xihuan(1).png"
+      },
+      {
+        "pagePath": "pages/delete/delete",
+        "text": "删除",
+        "iconPath": "pages/images/shanchu.png",
+        "selectedIconPath": "pages/images/shanchu(1).png"
       }
     ]
   }

@@ -1,0 +1,31 @@
+/* pages/operation/operation.wxss */
+.container{
+    padding: 100px;
+    font-size: 20px;
+    margin-top: 200rpx;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.row text{
+    text-align: right;
+    width: 40%；
+}
+.row input{
+    font-size: 16px;
+    border: 1px solid #0099CC;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5 #aaa;
+    padding: 0.3rem;
+    width: 75%;
+}
+button{
+  width:80px;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

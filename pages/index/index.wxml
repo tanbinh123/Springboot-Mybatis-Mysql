@@ -6,6 +6,7 @@
       <view class="divide">|</view>
       <view class="year">{{item.year}}</view>
       <view class="actor">主演：{{item.actor}}</view>
+      <view class="id">ID:{{item.id}}</view>
     </view>
     <view class="fragile" wx:if="{{item.id%3 == 0}}"></view>
   </view>

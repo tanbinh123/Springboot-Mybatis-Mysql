@@ -46,6 +46,7 @@ swiper image{
   width:100%;
 }
 .title{
+  margin-top: 20px;
   font-size:30px;
   color:#0081d8;
   float:center;
